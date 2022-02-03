@@ -10,11 +10,11 @@ import org.junit.runners.JUnit4;
 public class RhymersJUnitTest {
 	final int STACK_CAPACITY = 12;
 	final int EMPTY_STACK_VALUE = -1;
-	defaultCountingOutRhymer rhymer;
+	DefaultCountingOutRhymer rhymer;
 
 	@Before
 	public void init(){
-		rhymer = new defaultCountingOutRhymer();
+		rhymer = new DefaultCountingOutRhymer();
 	}
 
 	@Test
