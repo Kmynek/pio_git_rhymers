@@ -7,7 +7,7 @@ public class RhymersJUnitTest {
 
 	@Test
 	public void testCountIn() {
-		DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
+		defaultCountingOutRhymer rhymer = new defaultCountingOutRhymer();
 		int testValue = 4;
 		rhymer.countIn(testValue);
 
@@ -17,7 +17,7 @@ public class RhymersJUnitTest {
 
 	@Test
 	public void testCallCheck() {
-		DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
+		defaultCountingOutRhymer rhymer = new defaultCountingOutRhymer();
 		boolean result = rhymer.callCheck();
 		Assert.assertEquals(true, result);
 
